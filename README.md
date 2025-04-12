@@ -60,36 +60,70 @@ my-react-app/
 
 ## 🚀 Getting Started
 
-### 1. Install dependencies
+### ✅ Prerequisites
 
-```bash
-npm install
+Make sure you have **Node.js** and **npm** installed.  
+You can check with:
+
+```sh
+node -v
+npm -v
 ```
 
-### 2. Start the development server
+### ✅ Setup Steps
 
-```bash
-npm run dev
-```
+1. **Clone the repository**:
 
-Then visit: [http://localhost:5173](http://localhost:5173)
+   ```sh
+   git clone https://github.com/yourusername/my-react-app.git
+   ```
+
+2. **Navigate to the project directory**:
+
+   ```sh
+   cd my-react-app
+   ```
+
+3. **Install dependencies**:
+
+   ```sh
+   npm install
+   ```
+
+4. **Start the local dev server**:
+
+   ```sh
+   npm run dev
+   ```
+
+5. **Open your browser** and go to:  
+   [http://localhost:5173](http://localhost:5173)
 
 ---
 
 ## 🌐 Deployment
 
-You can easily deploy this app using:
+### 🔹 Deploy on Vercel
 
-- [Vercel](https://vercel.com)
-- [Netlify](https://netlify.com)
+1. **Install Vercel CLI** (if not already installed):
 
-To create a production build:
+   ```sh
+   npm install -g vercel
+   ```
 
-```bash
-npm run build
-```
+2. **Login to Vercel**:
 
-Upload the `dist/` folder to your hosting platform.
+   ```sh
+   vercel login
+   ```
+
+3. **Deploy the project**:
+
+   ```sh
+   vercel
+   ```
+
+   Follow the prompts in your terminal.
 
 ---
 
@@ -116,3 +150,10 @@ Upload the `dist/` folder to your hosting platform.
 
 - Digits only (`+`, `-`, `space`, `()` allowed)
 - Dynamic prefix based on country
+
+---
+
+## 👉 Demo Link
+
+**Live Deployment:**  
+[Vercel Project](https://r3-nadiias-projects-dc6d9292.vercel.app/)
