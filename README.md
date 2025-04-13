@@ -127,6 +127,16 @@ npm -v
 
 ---
 
+## Additional Functionality
+
+1. The `UserListFromServer` component implements loading state handling and error display during server requests. This logic provides users with feedback on the status of the data fetch or errors if the request fails.
+
+2. The `UncontrolledForm` component includes a visual loading indicator while the form is being submitted, giving users clear feedback during the submission process.
+
+3. The interface includes a glass effect applied to the form via the `glass` class. This visual style uses CSS backdrop filters to create a blurred, frosted-glass appearance but is currently undocumented.
+
+"""
+
 ## 🧪 Validation Summary
 
 ### Name

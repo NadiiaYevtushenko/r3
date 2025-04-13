@@ -1,4 +1,3 @@
-// src/utils/validation.ts
 import { Errors } from '../types/formTypes';
 
 const isCyrillic = (value: string) => /[а-яА-ЯёЁіІїЇєЄґҐ]/.test(value);
@@ -49,11 +48,11 @@ export const validateForm = (data: {
     }
 
     // Phone validation
-    const phonePattern = /^[+]?\d{7,15}$/;
+    const phonePattern = /^[0-9+\-\s()]{7,20}$/;
     if (!data.phone.trim()) {
         errors.phone = 'Phone number is required.';
     } else if (!phonePattern.test(data.phone)) {
-        errors.phone = 'Enter a valid phone number with digits only.';
+        errors.phone = 'Enter a valid phone number (digits, spaces, +, -, () allowed).';
     }
 
     return errors;

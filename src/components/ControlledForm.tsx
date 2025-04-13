@@ -4,7 +4,7 @@ import PasswordField from '../fields/PasswordField';
 import CountryCitySelector from '../fields/CountryCitySelector';
 import PhoneInput from '../fields/PhoneInput';
 import { useFormHandlers } from '../hooks/useFormHandlers';
-import { validateForm } from '../ utils/validation.ts';
+import { validateForm } from '../utils/validation.ts';
 import { Errors } from '../types/formTypes';
 import { countryData } from '../data/countryData';
 import '../styles/FormStyles.css';
